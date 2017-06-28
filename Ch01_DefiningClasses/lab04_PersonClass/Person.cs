@@ -18,7 +18,12 @@ public class Person
         get { return this.age; }
         set { this.age = value; }
     }
-    public List<BankAccount> Accounts { get; set; }
+
+    public List<BankAccount> Accounts
+    {
+        get { return this.accounts; }
+        set { this.accounts = value; }
+    }
 
     public Person(string name, int age, List<BankAccount> accounts)
     {
@@ -27,19 +32,18 @@ public class Person
         this.accounts = accounts;
     }
 
-    //public Person(string name, int age) : this(name, age, new List<BankAccount>())
-    //{
-    //    this.Name = name;
-    //    this.Age = age;
-    //    this.Accounts = new List<BankAccount>();
-    //}
-
-    public Person(string name, int age)
+    public Person(string name, int age) : this(name, age, new List<BankAccount>())
     {
-        this.name = name;
-        this.age = age;
-        this.accounts = new List<BankAccount>();
+        this.Name = name;
+        this.Age = age;
     }
+
+    //public Person(string name, int age)
+    //{
+    //    this.name = name;
+    //    this.age = age;
+    //    this.accounts = new List<BankAccount>();
+    //}
 
 
     public double GetBalance()
