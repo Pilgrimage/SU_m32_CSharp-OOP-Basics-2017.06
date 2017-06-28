@@ -17,16 +17,16 @@
 
     public void Deposit(double amount)
     {
-        this.balance += amount;
+        this.Balance += amount;
     }
 
     public void Withdraw(double amount)
     {
-        this.balance -= amount;
+        this.Balance -= amount;
     }
 
     public override string ToString()
     {
-        return $"Account ID{this.id}, balance {this.balance:f2}";
+        return $"Account ID{this.ID}, balance {this.Balance:f2}";
     }
 }

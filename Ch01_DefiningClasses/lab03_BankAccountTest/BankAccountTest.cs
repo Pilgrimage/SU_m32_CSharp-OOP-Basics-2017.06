@@ -64,25 +64,9 @@ public class BankAccountTest
                         Console.WriteLine(accounts[id].ToString());
                     }
                     break;
-
             }
-
-
         }
 
     }
-
-    private static Dictionary<int, BankAccount> CreateAcc(Dictionary<int, BankAccount> accounts, int id)
-    {
-        if (accounts.ContainsKey(id))
-        {
-            Console.WriteLine("Account already exists");
-            return accounts;
-        }
-        Dictionary<int, BankAccount> result = new Dictionary<int, BankAccount>(accounts);
-        result.Add(id, new BankAccount() { ID = id, Balance = 0 });
-        return result;
-    }
-
 }
 
