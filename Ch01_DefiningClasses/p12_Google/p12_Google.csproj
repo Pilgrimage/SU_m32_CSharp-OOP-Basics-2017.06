@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{64350D6B-711D-4F8D-866B-2197E5429D6E}</ProjectGuid>
+    <ProjectGuid>{C0D405F5-CE7B-4988-81DA-99CEC20D3FFD}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>p10_CarSalesman</RootNamespace>
-    <AssemblyName>p10_CarSalesman</AssemblyName>
+    <RootNamespace>p12_Google</RootNamespace>
+    <AssemblyName>p12_Google</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Car.cs" />
-    <Compile Include="Engine.cs" />
-    <Compile Include="CarSalesman.cs" />
+    <Compile Include="Google.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

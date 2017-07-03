@@ -40,6 +40,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p09_RectangleIntersection",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p10_CarSalesman", "p10_CarSalesman\p10_CarSalesman.csproj", "{64350D6B-711D-4F8D-866B-2197E5429D6E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p11_PokemonTrainer", "p11_PokemonTrainer\p11_PokemonTrainer.csproj", "{10B6118F-9D6A-41C5-BD2A-62E3CB9CB86A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p12_Google", "p12_Google\p12_Google.csproj", "{C0D405F5-CE7B-4988-81DA-99CEC20D3FFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -106,6 +110,14 @@ Global
 		{64350D6B-711D-4F8D-866B-2197E5429D6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64350D6B-711D-4F8D-866B-2197E5429D6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64350D6B-711D-4F8D-866B-2197E5429D6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10B6118F-9D6A-41C5-BD2A-62E3CB9CB86A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10B6118F-9D6A-41C5-BD2A-62E3CB9CB86A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10B6118F-9D6A-41C5-BD2A-62E3CB9CB86A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10B6118F-9D6A-41C5-BD2A-62E3CB9CB86A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0D405F5-CE7B-4988-81DA-99CEC20D3FFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0D405F5-CE7B-4988-81DA-99CEC20D3FFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0D405F5-CE7B-4988-81DA-99CEC20D3FFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0D405F5-CE7B-4988-81DA-99CEC20D3FFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
