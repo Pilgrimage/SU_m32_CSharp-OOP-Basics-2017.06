@@ -5,6 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{20AA8259-F967-4490-91CC-A19211FAEA12}"
 	ProjectSection(SolutionItems) = preProject
+		02.CSOOPBasics-Encapsulation-Exercises.docx = 02.CSOOPBasics-Encapsulation-Exercises.docx
 		02.CSOOPBasics-Encapsulation-Lab.docx = 02.CSOOPBasics-Encapsulation-Lab.docx
 		02.CSOOPBasics-Encapsulation.pptx = 02.CSOOPBasics-Encapsulation.pptx
 	EndProjectSection
@@ -16,6 +17,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab03_ValidationData", "lab03_ValidationData\lab03_ValidationData.csproj", "{6B5921B3-65D7-4948-AACD-FA46F73208FF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab04_FirstAndReserveTeam", "lab04_FirstAndReserveTeam\lab04_FirstAndReserveTeam.csproj", "{FAB9D4CB-2249-4EEF-8C87-A9FE536D821D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p01_ClassBox", "p01_ClassBox\p01_ClassBox.csproj", "{390E9EC8-4606-4B81-B0D6-262DA6FCF2D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p02_ClassBoxDataValidation", "p02_ClassBoxDataValidation\p02_ClassBoxDataValidation.csproj", "{82A4EDD8-C7FA-4678-B21E-C99E79BF02F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p03_AnimalFarm", "p03_AnimalFarm\p03_AnimalFarm.csproj", "{55157E37-3372-4233-96CC-3D5D93D31363}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p04_ShoppingSpree", "p04_ShoppingSpree\p04_ShoppingSpree.csproj", "{6BA30336-9AD5-47B5-9EFF-233E715FFA9A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +48,22 @@ Global
 		{FAB9D4CB-2249-4EEF-8C87-A9FE536D821D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAB9D4CB-2249-4EEF-8C87-A9FE536D821D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAB9D4CB-2249-4EEF-8C87-A9FE536D821D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{390E9EC8-4606-4B81-B0D6-262DA6FCF2D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{390E9EC8-4606-4B81-B0D6-262DA6FCF2D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{390E9EC8-4606-4B81-B0D6-262DA6FCF2D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{390E9EC8-4606-4B81-B0D6-262DA6FCF2D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82A4EDD8-C7FA-4678-B21E-C99E79BF02F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82A4EDD8-C7FA-4678-B21E-C99E79BF02F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82A4EDD8-C7FA-4678-B21E-C99E79BF02F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82A4EDD8-C7FA-4678-B21E-C99E79BF02F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55157E37-3372-4233-96CC-3D5D93D31363}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55157E37-3372-4233-96CC-3D5D93D31363}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55157E37-3372-4233-96CC-3D5D93D31363}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55157E37-3372-4233-96CC-3D5D93D31363}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BA30336-9AD5-47B5-9EFF-233E715FFA9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BA30336-9AD5-47B5-9EFF-233E715FFA9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BA30336-9AD5-47B5-9EFF-233E715FFA9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BA30336-9AD5-47B5-9EFF-233E715FFA9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
