@@ -43,7 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Car.cs" />
+    <Compile Include="Child.cs" />
+    <Compile Include="Company.cs" />
     <Compile Include="Google.cs" />
+    <Compile Include="Parent.cs" />
+    <Compile Include="Person.cs" />
+    <Compile Include="Pokemon.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
