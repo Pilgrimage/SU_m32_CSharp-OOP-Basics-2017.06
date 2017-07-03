@@ -1,8 +1,7 @@
-﻿using System.Linq;
-
-namespace p04_ShoppingSpree
+﻿namespace p04_ShoppingSpree
 {
     using System;
+    using System.Linq;
 
     using System.Collections.Generic;
 
@@ -19,7 +18,7 @@ namespace p04_ShoppingSpree
             {
                 if (string.IsNullOrWhiteSpace(value))
                 {
-                    throw new ArgumentException($"{nameof(Name)} cannot be an empty string");
+                    throw new ArgumentException($"{nameof(Name)} cannot be empty");
                 }
                 this.name = value;
             }
@@ -58,7 +57,7 @@ namespace p04_ShoppingSpree
 
         public override string ToString()
         {
-            string print = this.products.Any() ? string.Join(", ", this.products.Select(x => x.Name).ToList())
+            string print = this.products.Any() ? string.Join(", ", this.products.Select(x => x.Name))
                                                : "Nothing bought";
             return $"{this.Name} - {print}";
         }

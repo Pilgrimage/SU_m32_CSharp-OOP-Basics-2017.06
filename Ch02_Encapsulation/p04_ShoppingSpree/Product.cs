@@ -14,7 +14,7 @@
             {
                 if (string.IsNullOrWhiteSpace(value))
                 {
-                    throw new ArgumentException($"{nameof(Name)} cannot be an empty string");
+                    throw new ArgumentException($"Name cannot be empty");
                 }
                 this.name = value;
             }
@@ -25,7 +25,7 @@
             get { return this.cost; }
             private set
             {
-                if (value < 0)
+                if (value <= 0)
                 {
                     throw new ArgumentException($"Money cannot be negative");
                 }

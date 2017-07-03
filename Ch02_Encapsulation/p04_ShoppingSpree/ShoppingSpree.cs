@@ -63,7 +63,7 @@
                     customer.BuyProduct(prod);
                     Console.WriteLine($"{customer.Name} bought {prod.Name}");
                 }
-                catch (Exception ex)
+                catch (InvalidOperationException ex)
                 {
                     Console.WriteLine(ex.Message);
                 }
@@ -72,7 +72,7 @@
             
             foreach (var person in persons)
             {
-                Console.WriteLine(person);
+                Console.WriteLine(person.ToString());
             }
         }
     }
