@@ -48,6 +48,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p13_FamilyTree", "p13_Famil
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p14_CatLady", "p14_CatLady\p14_CatLady.csproj", "{65D549B1-9788-4DA6-8E6A-93633578C588}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p15_DrawingTool", "p15_DrawingTool\p15_DrawingTool.csproj", "{31CB4EE8-2C09-4A70-9967-E793E53B6E1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -130,6 +132,10 @@ Global
 		{65D549B1-9788-4DA6-8E6A-93633578C588}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65D549B1-9788-4DA6-8E6A-93633578C588}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65D549B1-9788-4DA6-8E6A-93633578C588}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31CB4EE8-2C09-4A70-9967-E793E53B6E1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31CB4EE8-2C09-4A70-9967-E793E53B6E1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31CB4EE8-2C09-4A70-9967-E793E53B6E1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31CB4EE8-2C09-4A70-9967-E793E53B6E1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
