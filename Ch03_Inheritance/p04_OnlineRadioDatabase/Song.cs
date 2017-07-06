@@ -6,19 +6,45 @@
     {
         private string artistName;
         private string songName;
-        private string time;
-        //private TimeSpan songLength;
+        private int totalSongLengthInSeconds;
 
-        //public Song(string artistName, string songName, string time);//TimeSpan songLength)
-        //{
-        //    this.ArtistName = artistName;
-        //    this.SongName = songName;
-        //    //this.SongLength = songLength;
-        //}
+        public Song(string artistName, string songName, string time)
+        {
+            this.ArtistName = artistName;
+            this.SongName = songName;
+            this.TotalSongLengthInSeconds = Validator.TimeValidate(time);
+        }
 
-        //public string ArtistName { get; set; }
+        public string ArtistName
+        {
+            get { return this.artistName; }
+            set
+            {
+                if (value.Length < 3 || value.Length > 20)
+                {
+                    throw new ArgumentException("Artist name should be between 3 and 20 symbols.");
+                }
+                this.artistName = value;
+            }
+        }
 
+        public string SongName
+        {
+            get { return this.songName; }
+            set
+            {
+                if (value.Length < 3 || value.Length > 30)
+                {
+                    throw new ArgumentException("Song name should be between 3 and 30 symbols.");
+                }
+                this.songName = value;
+            }
+        }
 
-        //public string SongName { get; set; }
+        public int TotalSongLengthInSeconds
+        {
+            get { return this.totalSongLengthInSeconds; }
+            private set { this.totalSongLengthInSeconds = value; }
+        }
     }
 }

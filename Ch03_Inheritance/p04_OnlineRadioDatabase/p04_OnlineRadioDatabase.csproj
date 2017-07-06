@@ -46,6 +46,7 @@
     <Compile Include="OnlineRadioDatabase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Song.cs" />
+    <Compile Include="Validator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
