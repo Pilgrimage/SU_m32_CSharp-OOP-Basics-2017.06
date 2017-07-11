@@ -37,7 +37,14 @@ public class Engine
                     // open {id} {type} {length} {route} {prizePool}
                     // OPENS a race of the given type, with the given id, and stats.
                     // The race type will be either “Casual”, “Drag” or “Drift”.
-                    carManager.Open(int.Parse(inParam[1]), inParam[2], int.Parse(inParam[3]), inParam[4], int.Parse(inParam[5]));
+                    if (inParam.Length == 6)
+                    {
+                        carManager.Open(int.Parse(inParam[1]), inParam[2], int.Parse(inParam[3]), inParam[4], int.Parse(inParam[5]));
+                    }
+                    else
+                    {
+                        carManager.Open(int.Parse(inParam[1]), inParam[2], int.Parse(inParam[3]), inParam[4], int.Parse(inParam[5]), int.Parse(inParam[6]));
+                    }
                     break;
 
                 case "participate":

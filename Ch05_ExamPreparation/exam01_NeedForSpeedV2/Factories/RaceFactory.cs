@@ -15,5 +15,20 @@
                 return null;
         }
     }
+
+    public static Race GetRace(string type, int length, string route, int prizePool, int someParam)
+    {
+        switch (type)
+        {
+            case "TimeLimit":
+                return new TimeLimitRace(length, route, prizePool, someParam);
+            case "Circuit":
+                return new CircuitRace(length, route, prizePool, someParam);
+
+            default:
+                return null;
+        }
+    }
+
 }
 

@@ -44,6 +44,16 @@ public class CarManager
         }
     }
 
+    // Register racinig - DONE (bonus)
+    public void Open(int id, string type, int length, string route, int prizePool, int someParam)
+    {
+        Race newRace = RaceFactory.GetRace(type, length, route, prizePool, someParam);
+        if (newRace != null)
+        {
+            races.Add(id, newRace);
+        }
+    }
+
     // Participate in a race - DONE
     public void Participate(int carId, int raceId)
     {

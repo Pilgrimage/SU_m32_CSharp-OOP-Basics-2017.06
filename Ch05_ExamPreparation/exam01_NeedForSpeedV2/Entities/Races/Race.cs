@@ -35,7 +35,7 @@ public abstract class Race
         set { this.prizePool = value; }
     }
 
-    public List<Car> Participants
+    public virtual List<Car> Participants
     {
         get { return this.participants; }
         set { this.participants = value; }

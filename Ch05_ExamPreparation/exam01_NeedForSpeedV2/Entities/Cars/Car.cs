@@ -60,7 +60,7 @@ public abstract class Car
     public int Durability
     {
         get { return this.durability; }
-        protected set { this.durability = value; }
+        set { this.durability = value; }
     }
 
     public int CarPPoints { get; set; }
