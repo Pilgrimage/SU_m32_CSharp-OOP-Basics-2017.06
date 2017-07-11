@@ -2,10 +2,16 @@
 
 public class Garage
 {
-private List<Car> parkedCars;
+    private List<Car> parkedCars;
 
     public Garage()
     {
-        this.parkedCars = new List<Car>();
+        this.ParkedCars = new List<Car>();
+    }
+
+    public List<Car> ParkedCars
+    {
+        get { return this.parkedCars; }
+        set { this.parkedCars = value; }
     }
 }

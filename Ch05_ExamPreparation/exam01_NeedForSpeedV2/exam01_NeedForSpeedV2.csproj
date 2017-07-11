@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core\CarManager.cs" />
+    <Compile Include="Core\Engine.cs" />
     <Compile Include="Entities\Cars\Car.cs" />
     <Compile Include="Entities\Cars\PerformanceCar.cs" />
     <Compile Include="Entities\Cars\ShowCar.cs" />
@@ -52,15 +54,14 @@
     <Compile Include="Entities\Races\DriftRace.cs" />
     <Compile Include="Entities\Races\Race.cs" />
     <Compile Include="Factories\CarFactory.cs" />
+    <Compile Include="Factories\RaceFactory.cs" />
     <Compile Include="StartUp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Core\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
