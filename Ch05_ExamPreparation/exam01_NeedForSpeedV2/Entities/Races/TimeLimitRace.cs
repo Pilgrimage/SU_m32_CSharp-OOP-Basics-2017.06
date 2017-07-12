@@ -33,7 +33,7 @@ public class TimeLimitRace : Race
     protected override void CalculatePoints()
     {
         Car car = this.Participants.FirstOrDefault();
-        car.CarPPoints = this.Length * ((car.Horsepower / 100) * car.Acceleration);
+        car.CarPPoints = this.Length * (car.Horsepower / 100) * car.Acceleration;
     }
 
     private string GetPrize(Car car)
@@ -60,7 +60,7 @@ public class TimeLimitRace : Race
         StringBuilder sb = new StringBuilder();
 
         sb.AppendLine($"{this.Route} - {this.Length}");
-        sb.AppendLine($"{car.Brand} {car.Model} – {car.CarPPoints} s.");
+        sb.AppendLine($"{car.Brand} {car.Model} - {car.CarPPoints} s.");
         sb.AppendLine(GetPrize((car)));
 
         return sb.ToString().Trim();
