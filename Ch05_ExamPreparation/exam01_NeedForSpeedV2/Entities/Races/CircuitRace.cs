@@ -11,7 +11,7 @@ public class CircuitRace : CasualRace
 
     public int Laps { get; set; }
 
-    protected virtual List<Car> PerfPoints()
+    protected override List<Car> PerfPoints()
     {
         this.CalculatePoints();
         return this.Participants.OrderByDescending(x => x.CarPPoints).Take(4).ToList();

@@ -11,7 +11,7 @@ public class TimeLimitRace : Race
 
     public int GoldTime { get; set; }
 
-    public virtual List<Car> Participants
+    public override List<Car> Participants
     {
         get { return this.participants; }
         set
@@ -23,10 +23,10 @@ public class TimeLimitRace : Race
         }
     }
 
-    protected virtual Car PerfPoints()
+    protected override List<Car> PerfPoints()
     {
         this.CalculatePoints();
-        return this.Participants.FirstOrDefault();
+        return this.Participants;
     }
 
 
@@ -56,14 +56,14 @@ public class TimeLimitRace : Race
 
     public override string ToString()
     {
-        Car car = this.PerfPoints();
+        Car car = this.PerfPoints().FirstOrDefault();
         StringBuilder sb = new StringBuilder();
 
         sb.AppendLine($"{this.Route} - {this.Length}");
         sb.AppendLine($"{car.Brand} {car.Model} - {car.CarPPoints} s.");
         sb.AppendLine(GetPrize((car)));
 
-        return sb.ToString().Trim();
+        return sb.ToString();
     }
 
 }
