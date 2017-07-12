@@ -2,6 +2,8 @@
 
 public class ShowCar : Car
 {
+    private int starts;
+
     public ShowCar(string brand, string model, int yearOfProduction, int horsepower, int acceleration, int suspension,
         int durability) 
         : base(brand, model, yearOfProduction, horsepower, acceleration, suspension, durability)
@@ -9,8 +11,12 @@ public class ShowCar : Car
         this.Stars = 0;
 
     }
-    
-    public int Stars { get; set; }
+
+    public int Stars
+    {
+        get { return this.starts; }
+        set { this.starts = value; }
+    }
 
     public override void TuneUp(int tuneIndex, string addOn)
     {

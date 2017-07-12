@@ -4,12 +4,18 @@ using System.Text;
 
 public class CircuitRace : CasualRace
 {
+    private int lap;
+
     public CircuitRace(int length, string route, int prizePool, int laps) : base(length, route, prizePool)
     {
         this.Laps = laps;
     }
 
-    public int Laps { get; set; }
+    public int Laps
+    {
+        get { return this.lap; }
+        set { this.lap = value; }
+    }
 
     protected override List<Car> PerfPoints()
     {

@@ -4,21 +4,26 @@ using System.Text;
 
 public class TimeLimitRace : Race
 {
+    private int goldTime;
     public TimeLimitRace(int length, string route, int prizePool, int goldTime) : base(length, route, prizePool)
     {
         this.GoldTime = goldTime;
     }
 
-    public int GoldTime { get; set; }
+    public int GoldTime
+    {
+        get { return this.goldTime; }
+        set { this.goldTime = value; }
+    }
 
     public override List<Car> Participants
     {
-        get { return this.participants; }
+        get { return base.Participants; }
         set
         {
-            if (!base.participants.Any())
+            if (!base.Participants.Any())
             {
-                this.participants = value;
+                base.Participants = value;
             }
         }
     }

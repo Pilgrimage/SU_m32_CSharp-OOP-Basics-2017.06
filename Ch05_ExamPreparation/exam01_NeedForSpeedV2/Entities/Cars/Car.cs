@@ -9,6 +9,7 @@ public abstract class Car
     private int acceleration;
     private int suspension;
     private int durability;
+    private int carPPoints;
 
     protected Car(string brand, string model, int yearOfProduction, int horsepower, int acceleration, int suspension, int durability)
     {
@@ -63,7 +64,11 @@ public abstract class Car
         set { this.durability = value; }
     }
 
-    public int CarPPoints { get; set; }
+    public int CarPPoints
+    {
+        get { return this.carPPoints; }
+        set { this.carPPoints = value; }
+    }
 
 
     public virtual void TuneUp(int tuneIndex, string addOn)

@@ -7,7 +7,7 @@ public abstract class Race
     private int length;
     private string route;
     private int prizePool;
-    protected List<Car> participants;
+    private List<Car> participants;
 
     protected Race(int length, string route, int prizePool)
     {
